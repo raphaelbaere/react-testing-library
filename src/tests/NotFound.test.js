@@ -3,7 +3,7 @@ import { act } from 'react-dom/test-utils';
 import renderWithRouter from '../renderWithRouter';
 import App from '../App';
 
-describe('Renderiza o Favorites e...', () => {
+describe('Renderiza o NotFound e...', () => {
   test('Teste se a página contém um heading h2 com o texto Page requested not found', () => {
     const { history } = renderWithRouter(<App />);
     act(() => {
