@@ -1,7 +1,6 @@
 import { screen } from '@testing-library/react';
 import { act } from 'react-dom/test-utils';
 import renderWithRouter from '../renderWithRouter';
-import FavoritePokemon from '../pages/FavoritePokemon';
 import App from '../App';
 
 describe('Renderiza o Favorites e...', () => {
